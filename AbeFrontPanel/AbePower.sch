@@ -1717,4 +1717,15 @@ F 3 "" H 1950 3900 50  0001 C CNN
 	1    1950 3900
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Regulator_Linear:TLV1117-ADJ U?
+U 1 1 608AAEB4
+P 4950 3050
+F 0 "U?" H 4950 3292 50  0000 C CNN
+F 1 "TLV1117-ADJ" H 4950 3201 50  0000 C CNN
+F 2 "" H 4950 3050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv1117.pdf" H 4950 3050 50  0001 C CNN
+	1    4950 3050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

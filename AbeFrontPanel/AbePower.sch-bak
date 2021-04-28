@@ -745,8 +745,6 @@ F 3 "" H 3250 2000 50  0001 C CNN
 	1    3250 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 1950 3900 2    50   Input ~ 0
-stbyFp
 Text GLabel 3250 3000 0    50   Input ~ 0
 stbyFp
 $Comp
@@ -1704,4 +1702,19 @@ Wire Wire Line
 	7600 4950 7350 4950
 Connection ~ 7600 4950
 Connection ~ 7350 4950
+Text Notes 6850 4400 0    50   ~ 0
+All 15 LEDs will turn on at the same time during Boot Up and during product failure\n(15 LEDs x 20mA) = 300mA
+Text Notes 9150 3500 0    50   ~ 0
+2.7k resistor will set the IREF to 20mA per channel
+$Comp
+L power:DCOM #PWR?
+U 1 1 608A9B23
+P 1950 3900
+F 0 "#PWR?" H 1950 3650 50  0001 C CNN
+F 1 "DCOM" V 1955 3772 50  0000 R CNN
+F 2 "" H 1950 3900 50  0001 C CNN
+F 3 "" H 1950 3900 50  0001 C CNN
+	1    1950 3900
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
