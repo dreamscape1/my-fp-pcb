@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L AbeFrontPanel-rescue:MC33269D-3.3-MC33 U?
+L MC33:MC33269D-3.3 U?
 U 1 1 60812DCE
 P 2000 5000
 F 0 "U?" H 2900 5387 60  0000 C CNN
@@ -542,7 +542,7 @@ F 3 "~" H 9600 1700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L AbeFrontPanel-rescue:SN74ACT14D-SN74ACT14 U?
+L SN74ACT14:SN74ACT14D U?
 U 1 1 6081383B
 P 6500 1100
 F 0 "U?" H 7600 1487 60  0000 C CNN
