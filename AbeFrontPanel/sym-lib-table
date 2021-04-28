@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name DRV8870)(type Legacy)(uri "C:/Users/Cyclone1/Desktop/Work Project/Symbol/KiCAD/DRV8870DDA/2021-04-22_03-38-48.lib")(options "")(descr ""))
+  (lib (name MC33)(type Legacy)(uri "C:/Users/Cyclone1/Desktop/Work Project/Symbol/KiCAD/MC33269D33/2021-04-22_03-47-16.lib")(options "")(descr ""))
+  (lib (name MSP430)(type Legacy)(uri "C:/Users/Cyclone1/Desktop/Work Project/Symbol/KiCAD/MSP430FR2475TRHAR/2021-04-22_03-38-06.lib")(options "")(descr ""))
+  (lib (name SN74ACT14)(type Legacy)(uri "C:/Users/Cyclone1/Desktop/Work Project/Symbol/KiCAD/SN74ACT14D/2021-04-22_03-48-55.lib")(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri ${KIPRJMOD}/power.lib)(options "")(descr ""))
+  (lib (name AbeVfdSymbol)(type Legacy)(uri ${KIPRJMOD}/AbeVfdSymbol.lib)(options "")(descr ""))
+  (lib (name TLC59284DBQ)(type Legacy)(uri "C:/Users/Cyclone1/Desktop/Work Project/Symbol/KiCAD/TLC59284DBQ/TLC59284DBQ.lib")(options "")(descr ""))
+)
