@@ -1769,7 +1769,7 @@ L Device:R_Small_US R?
 U 1 1 60937F7B
 P 3100 3350
 F 0 "R?" H 3168 3396 50  0000 L CNN
-F 1 "10k" H 3168 3305 50  0000 L CNN
+F 1 "470" H 3168 3305 50  0000 L CNN
 F 2 "" H 3100 3350 50  0001 C CNN
 F 3 "~" H 3100 3350 50  0001 C CNN
 	1    3100 3350
@@ -1780,7 +1780,7 @@ L Device:R_Small_US R?
 U 1 1 60938B43
 P 3100 3650
 F 0 "R?" H 3168 3696 50  0000 L CNN
-F 1 "36k" H 3168 3605 50  0000 L CNN
+F 1 "3.32k" H 3168 3605 50  0000 L CNN
 F 2 "" H 3100 3650 50  0001 C CNN
 F 3 "~" H 3100 3650 50  0001 C CNN
 	1    3100 3650
@@ -1857,8 +1857,6 @@ $EndComp
 Wire Wire Line
 	3450 3050 3450 3150
 Connection ~ 3450 3150
-Text Notes 1600 4300 0    50   ~ 0
-Vout = Vref(1 + R2/R1) + (Iadj x R2)   where Iadj is 120uA max\n\n 
 Text Notes 1250 4250 0    50   ~ 0
 Cout need to be tantalum and aluminium having ESR between 0.2 and 10 Ohm
 $Comp
@@ -1895,4 +1893,6 @@ Wire Wire Line
 	6150 1750 6300 1750
 Wire Wire Line
 	6300 1750 6300 1800
+Text Notes 1600 4300 0    50   ~ 0
+Vout = Vref(1 + R2/R1) + (Iadj x R2)   where Vref=1.25V and Iadj=120uA max\n\n 
 $EndSCHEMATC
