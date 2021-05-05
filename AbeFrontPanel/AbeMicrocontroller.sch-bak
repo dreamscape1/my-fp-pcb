@@ -203,7 +203,7 @@ Wire Wire Line
 Connection ~ 9750 6200
 Wire Wire Line
 	9750 6200 9750 6250
-Text GLabel 1000 3750 0    50   Input ~ 0
+Text GLabel 1000 3750 0    50   Output ~ 0
 FP_SRQ*
 $Comp
 L Device:R_Pack04_Split RP111
@@ -238,7 +238,7 @@ F 3 "~" H 1500 4150 50  0001 C CNN
 	2    1500 4150
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1000 4150 0    50   Input ~ 0
+Text GLabel 1000 4150 0    50   Output ~ 0
 FpSerialData
 Wire Wire Line
 	1000 4150 1350 4150
@@ -257,10 +257,10 @@ Text GLabel 1000 4450 0    50   Input ~ 0
 FpSerialClk
 Wire Wire Line
 	1000 4450 1350 4450
-Text GLabel 1000 3350 0    50   Input ~ 0
+Text GLabel 1000 3350 0    50   Output ~ 0
 LED_SCLK
-Text GLabel 1000 3250 0    50   Input ~ 0
-LED_SDA
+Text GLabel 1000 3250 0    50   Output ~ 0
+LED_MOSI
 Wire Wire Line
 	1000 3250 2850 3250
 Wire Wire Line
