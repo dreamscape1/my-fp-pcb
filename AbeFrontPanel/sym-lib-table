@@ -7,4 +7,5 @@
   (lib (name AbeVfdSymbol)(type Legacy)(uri ${KIPRJMOD}/AbeVfdSymbol.lib)(options "")(descr ""))
   (lib (name TLC59284DBQ)(type Legacy)(uri ${KIPRJMOD}/Library/mySymbol/TLC59284DBQ.lib)(options "")(descr ""))
   (lib (name AbeFrontPanel-rescue)(type Legacy)(uri ${KIPRJMOD}/AbeFrontPanel-rescue.lib)(options "")(descr ""))
+  (lib (name DRV8210DSGR)(type Legacy)(uri ${KIPRJMOD}/Library/mySymbol/DRV8210DSGR.lib)(options "")(descr ""))
 )
